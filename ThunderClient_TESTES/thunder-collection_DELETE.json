@@ -1,0 +1,35 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "DELETE",
+    "collectionId": "a7ec94f6-8f6c-406f-92e8-cc56841989e9",
+    "dateExported": "2024-07-16T22:42:46.883Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2f39f8eb-65c5-4200-9a42-454043f8c31a",
+            "colId": "a7ec94f6-8f6c-406f-92e8-cc56841989e9",
+            "containerId": "",
+            "name": "DELETE PRATO",
+            "url": "localhost:1338/api/Pratos/6",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-07-16T22:39:44.984Z",
+            "modified": "2024-07-16T22:40:48.689Z",
+            "headers": []
+        },
+        {
+            "_id": "45c272e9-f2f9-488b-a3ae-939f75ead038",
+            "colId": "a7ec94f6-8f6c-406f-92e8-cc56841989e9",
+            "containerId": "",
+            "name": "DELETE CATEGORIA",
+            "url": "localhost:1338/api/categorias/4",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-07-16T22:41:31.175Z",
+            "modified": "2024-07-16T22:41:45.767Z",
+            "headers": []
+        }
+    ],
+    "ref": "TmamA3530E7vXLRnKmPSDDnsfUpt_obXVRcKnmfrfZXuCJM8x_bCtyOwDaBT3MmhpYZ5Tr5GzxX_I169mQn-gw"
+}

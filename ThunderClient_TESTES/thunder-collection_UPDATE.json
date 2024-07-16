@@ -1,0 +1,45 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "UPDATE",
+    "collectionId": "9c16103b-8fa4-4d1a-861b-817a85923276",
+    "dateExported": "2024-07-16T22:42:41.286Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8e1c0359-ffb9-41ba-b044-4f3beb72355c",
+            "colId": "9c16103b-8fa4-4d1a-861b-817a85923276",
+            "containerId": "",
+            "name": "UPDATE FRANGO (PRATO)",
+            "url": "localhost:1338/api/Pratos/3",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2024-07-16T22:05:10.520Z",
+            "modified": "2024-07-16T22:39:11.762Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"data\":{\r\n    \"Foto\": 1\r\n  }\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1769f738-65d9-4b16-9cfc-f278669778b8",
+            "colId": "9c16103b-8fa4-4d1a-861b-817a85923276",
+            "containerId": "",
+            "name": "UPDATE SOBREMESA (CATEGORIA)",
+            "url": "localhost:1338/api/categorias/3",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-07-16T22:28:23.984Z",
+            "modified": "2024-07-16T22:29:17.085Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"data\":{\r\n    \"Nome\":\"Sobremesa\"\r\n  }\r\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "XqeXY2nojtlGNeKcEGU6Qiyfb3iZYVR7upiCBRLS2JOLKVClJ3SO2TUZKyHTWV528wb7Xq-F_Y-YfdqvQCHajQ"
+}

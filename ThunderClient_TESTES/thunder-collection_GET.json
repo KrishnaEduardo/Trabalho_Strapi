@@ -1,0 +1,66 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "GET",
+    "collectionId": "f6de9c0a-93c7-4c0b-91a7-2906ed227da3",
+    "dateExported": "2024-07-16T22:44:10.082Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5a28ea56-1001-4225-864b-8eae2b78d04d",
+            "colId": "f6de9c0a-93c7-4c0b-91a7-2906ed227da3",
+            "containerId": "",
+            "name": "GET PRATOS COM A RELAÇÃO",
+            "url": "localhost:1338/api/Pratos?populate=*",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-16T21:47:13.629Z",
+            "modified": "2024-07-16T21:47:16.448Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "populate",
+                    "value": "*",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "f1610835-7b4a-4ca8-a21a-e47a2ed72fcc",
+            "colId": "f6de9c0a-93c7-4c0b-91a7-2906ed227da3",
+            "containerId": "",
+            "name": "GET ID",
+            "url": "localhost:1338/api/Pratos/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-07-16T21:47:44.316Z",
+            "modified": "2024-07-16T21:47:57.066Z",
+            "headers": []
+        },
+        {
+            "_id": "0a1da763-d7be-4ed2-934d-5ad0abfa5c3c",
+            "colId": "f6de9c0a-93c7-4c0b-91a7-2906ed227da3",
+            "containerId": "",
+            "name": "GET CATEGORIA",
+            "url": "localhost:1338/api/categorias",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-16T21:48:06.132Z",
+            "modified": "2024-07-16T21:48:31.513Z",
+            "headers": []
+        },
+        {
+            "_id": "53405b65-3752-435e-ad94-7621823bc427",
+            "colId": "f6de9c0a-93c7-4c0b-91a7-2906ed227da3",
+            "containerId": "",
+            "name": "GET IMAGEM",
+            "url": "localhost:1338/uploads/small_frango_a_parmegiana_6_811da6324b.jpg",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-07-16T22:25:28.312Z",
+            "modified": "2024-07-16T22:26:14.133Z",
+            "headers": []
+        }
+    ],
+    "ref": "5ZqCJCy04nVkZ0ohkfwboDAt_9UHkIVDgEeP0AK4PEsDqL5aUtapfZ6vJMYpA8Q4WZvTqJhFFzhI7TwME0VwpA"
+}

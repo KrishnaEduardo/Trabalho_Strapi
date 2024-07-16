@@ -1,0 +1,79 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "POST",
+    "collectionId": "60b14ec6-40f4-4221-a06f-6dafe6c8fcdb",
+    "dateExported": "2024-07-16T22:42:36.984Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4d35186b-7529-4beb-8b92-4766a85221ae",
+            "colId": "60b14ec6-40f4-4221-a06f-6dafe6c8fcdb",
+            "containerId": "",
+            "name": "POST PRATO",
+            "url": "localhost:1338/api/Pratos",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-07-16T21:50:00.256Z",
+            "modified": "2024-07-16T22:02:33.943Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"data\":{\r\n    \"Nome\":\"Frango a parmegiana\",\r\n    \"Preco\": 30.00,\r\n    \"Categoria\": 1\r\n  }\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a5399628-b479-4426-94a5-17c5eb9aa3c5",
+            "colId": "60b14ec6-40f4-4221-a06f-6dafe6c8fcdb",
+            "containerId": "",
+            "name": "POST CATEGORIA",
+            "url": "localhost:1338/api/categorias",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-16T22:27:03.598Z",
+            "modified": "2024-07-16T22:27:58.869Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"data\":{\r\n    \"Nome\":\"Sobremesas\"\r\n  }\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c528ad85-76bb-4efa-aa48-a65ba7f3c1fd",
+            "colId": "60b14ec6-40f4-4221-a06f-6dafe6c8fcdb",
+            "containerId": "",
+            "name": "POST PARA DELETAR (PRATO)",
+            "url": "localhost:1338/api/Pratos",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-07-16T22:33:01.843Z",
+            "modified": "2024-07-16T22:38:31.844Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"data\":{\r\n    \"Nome\":\"Especial da Casa\",\r\n    \"Preco\": 300,\r\n    \"categoria\": 2,\r\n    \"Foto\": 3\r\n  }\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "8f52c90d-756c-4ff3-a779-3045be013eb7",
+            "colId": "60b14ec6-40f4-4221-a06f-6dafe6c8fcdb",
+            "containerId": "",
+            "name": "POST PARA DELETAR (CATEGORIA)",
+            "url": "localhost:1338/api/categorias",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-07-16T22:35:49.393Z",
+            "modified": "2024-07-16T22:36:34.380Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"data\":{\r\n    \"Nome\":\"Bebidas\"\r\n  }\r\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "8oYy2_1CDEb-5n5oD_XghO_E1jyBJM96Rl5Jbe1Vslme2UZ7QJ0v3UW9D_9WSgeyV9LlWKUHuy5K8IALquFcMA"
+}
